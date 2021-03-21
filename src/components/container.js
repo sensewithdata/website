@@ -56,7 +56,7 @@ const Header = props => (
           <HeaderLink href="/"><FixedImage src="/logo2cropped.png"></FixedImage></HeaderLink>
           <HeaderMenu>
             <li><HeaderLink href="/questions/">questions</HeaderLink></li>
-            <li><HeaderLink href="/datavoices/">voices</HeaderLink></li>
+            <li><HeaderLink href="/voices/">voices</HeaderLink></li>
             <li><HeaderLink href="/resources/">resources</HeaderLink></li>
             <li><HeaderLink href="/about/">about</HeaderLink></li>
 
