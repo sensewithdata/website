@@ -26,7 +26,11 @@ export default function Home({ data }) {
 
 export const query = graphql`
 query {
-  allMarkdownRemark(filter: {frontmatter: {filter: {eq: "question"}}}) {
+  allMarkdownRemark(  sort: {
+      fields: [frontmatter___index]
+      order: ASC
+  },
+  filter: {frontmatter: {filter: {eq: "question"}}}) {
     edges {
       node {
         html,
