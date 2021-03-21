@@ -56,7 +56,7 @@ export default class ResourcesPage extends React.Component {
                 (node.frontmatter.title.toLowerCase().includes(search.toLowerCase()) ||
                 node.html.toLowerCase().includes(search.toLowerCase()) ||
                 node.frontmatter.description.toLowerCase().includes(search.toLowerCase())) &&
-                node.frontmatter.resource_category == "whatisdata") ? (
+                node.frontmatter.resource_category === "whatisdata") ? (
                 <div>
                   <p><a href={ node.frontmatter.url }>{ node.frontmatter.title }</a> - <b>{ node.frontmatter.description }</b></p>
                   <div dangerouslySetInnerHTML={{ __html: node.html }} />
@@ -77,7 +77,7 @@ export default class ResourcesPage extends React.Component {
                 (node.frontmatter.title.toLowerCase().includes(search.toLowerCase()) ||
                 node.html.toLowerCase().includes(search.toLowerCase()) ||
                 node.frontmatter.description.toLowerCase().includes(search.toLowerCase())) &&
-                node.frontmatter.resource_category == "sensemakingandsystemschange") ? (
+                node.frontmatter.resource_category === "sensemakingandsystemschange") ? (
                 <div>
                   <p><a href={ node.frontmatter.url }>{ node.frontmatter.title }</a> - <b>{ node.frontmatter.description }</b></p>
                   <div dangerouslySetInnerHTML={{ __html: node.html }} />
@@ -98,7 +98,7 @@ export default class ResourcesPage extends React.Component {
                 (node.frontmatter.title.toLowerCase().includes(search.toLowerCase()) ||
                 node.html.toLowerCase().includes(search.toLowerCase()) ||
                 node.frontmatter.description.toLowerCase().includes(search.toLowerCase())) &&
-                node.frontmatter.resource_category == "collectiveandcommunity") ? (
+                node.frontmatter.resource_category === "collectiveandcommunity") ? (
                 <div>
                   <p><a href={ node.frontmatter.url }>{ node.frontmatter.title }</a> - <b>{ node.frontmatter.description }</b></p>
                   <div dangerouslySetInnerHTML={{ __html: node.html }} />
@@ -119,7 +119,7 @@ export default class ResourcesPage extends React.Component {
                 (node.frontmatter.title.toLowerCase().includes(search.toLowerCase()) ||
                 node.html.toLowerCase().includes(search.toLowerCase()) ||
                 node.frontmatter.description.toLowerCase().includes(search.toLowerCase())) &&
-                node.frontmatter.resource_category == "networkandcommunity") ? (
+                node.frontmatter.resource_category === "networkandcommunity") ? (
                 <div>
                   <p><a href={ node.frontmatter.url }>{ node.frontmatter.title }</a> - <b>{ node.frontmatter.description }</b></p>
                   <div dangerouslySetInnerHTML={{ __html: node.html }} />

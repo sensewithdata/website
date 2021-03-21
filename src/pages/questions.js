@@ -1,8 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-import { Link } from "gatsby"
-
 import Container from "../components/container"
 import ContentBlock from "../components/contentblock"
 
