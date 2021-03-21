@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{pK1E:function(e,n,t){"use strict";t.r(n),t.d(n,"default",(function(){return l}));var a=t("q1tI"),r=t.n(a),u=t("+e4l"),c=t("kr8F");function l(){return r.a.createElement(u.a,null,r.a.createElement(c.a,null,"beep"))}}}]);
-//# sourceMappingURL=component---src-pages-datavoices-js-51b1ce487eca5d1a84f7.js.map
