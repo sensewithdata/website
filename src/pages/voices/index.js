@@ -49,7 +49,7 @@ export default function About({ data }) {
 
 export const pageQuery = graphql`
 {
-  allContentfulVoice(filter: {visible: {eq: true}}) {
+  allContentfulVoice(filter: {visible: {eq: true}}, , sort: {fields: title, order: ASC}) {
     edges {
       node {
         id
