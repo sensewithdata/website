@@ -33,7 +33,7 @@ const HeaderLink = styled(Link)`
   display: block;
   color: black;
   box-shadow: none;
-  padding: 15px 15px 15px 0;
+  padding: 15px 0 15px 0;
   font-size: 20px;
   font-family: 'Alegreya Sans',sans-serif;
 
@@ -49,16 +49,19 @@ const FixedImage = styled.img`
   min-width: 273px;
   max-width: 273px;
 `
+const HeaderLi = styled.li`
+  padding: 0 10px 0 10px;
+`
 
 const Header = props => (
       <HeaderOutsideContainer>
         <HeaderInsideContainer>
           <HeaderLink href="/"><FixedImage src="/logo2cropped.png"></FixedImage></HeaderLink>
           <HeaderMenu>
-            <li><HeaderLink href="/questions/">questions</HeaderLink></li>
-            <li><HeaderLink href="/voices/">voices</HeaderLink></li>
-            <li><HeaderLink href="/resources/">resources</HeaderLink></li>
-            <li><HeaderLink href="/about/">about</HeaderLink></li>
+            <HeaderLi><HeaderLink href="/questions/">questions</HeaderLink></HeaderLi>
+            <HeaderLi><HeaderLink href="/voices/">voices</HeaderLink></HeaderLi>
+            <HeaderLi><HeaderLink href="/resources/">resources</HeaderLink></HeaderLi>
+            <HeaderLi><HeaderLink href="/about/">about</HeaderLink></HeaderLi>
 
           </HeaderMenu>
         </HeaderInsideContainer>
