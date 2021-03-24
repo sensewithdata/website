@@ -12,6 +12,8 @@ export default function Home() {
     <p>sensewithDATA brings together a collective of sensemakers, seeking to start a discussion about how digital data affects communities and becomes a force for change. How human data enables the creation and delivery of highly personal experiences, and where organisational data can enable rapid and potentially life-changing decisions. We intend this work to have an awareness and understanding of the human and social values that must underpin the development of new technologies that capture and analyse data. We like asking questions, provking discourse and exploring a diversity of attitudes and approaches, as a method of research and developing our data practice.</p>
 
     <p>There are a few key parts to this work. In <a href="/questions/">'questions'</a>, we host a virtual panel discussion about the burning questions facing data sensemakers. In <a href="/resources/">'resources'</a>, we've put together a set of links to interesting articles, exhibitions, and papers. And in <a href="/voices/">'voices'</a> we widen the conversation and ask others to introduce their own data voices and burning questions.</p>
+
+    <p>You can get in touch with us at hello@sensewithdata.org, or through <a href="https://twitter.com/sensewithdata">Twitter</a> and <a href="https://www.instagram.com/sensewithdata/">Instagram</a>.</p>
     </ContentBlock>
   </Container>
   )
