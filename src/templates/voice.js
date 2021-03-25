@@ -2,7 +2,7 @@ import React from "react"
 import Container from "../components/container"
 import ContentBlock from "../components/contentblock"
 import { graphql } from 'gatsby'
-import { BLOCKS, MARKS } from "@contentful/rich-text-types"
+import { BLOCKS, MARKS, INLINES } from "@contentful/rich-text-types"
 import { renderRichText } from "gatsby-source-contentful/rich-text"
 
 const Bold = ({ children }) => <span className="bold">{children}</span>
@@ -20,6 +20,15 @@ const options = {
             <img src={node.data.target.fixed.src} />
         )
       },
+      [INLINES.HYPERLINK]:(node) => {
+          if((node.data.uri).includes("player.vimeo.com/video")){
+              return (
+                <iframe src={node.data.uri} frameborder="0" width="640" height="360" allow="fullscreen; picture-in-picture" allowfullscreen></iframe>
+            );
+          } else return (
+              <a href={node.data.uri}>{node.content[0].value}</a>
+          );
+      }
     },
   }
   
@@ -92,7 +101,7 @@ query($slug: String!) {
 fragment asset on ContentfulAsset {
     contentful_id
     __typename
-    fixed(width: 300) {
+    fixed(width: 600) {
         width
         height
         src

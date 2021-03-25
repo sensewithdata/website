@@ -22,7 +22,7 @@ export default function About() {
           <div><p><b>Natasha Nicholson</b></p></div>
         </div>
         <div>
-          <p>Natasha is a partner in charlick+nicholson architects, and has researched signal-blocking technologies in architecture. The invisible world of data signals (Hertzian space), and its inverse,‘analogue space’, are the focus of Natasha’s research. Do we need analogue communication spaces to thrive in the digital world, and to fully understand it? How can we visualise Hertzian space? Can a critical approach to the presence and absence of data form new approaches to civic engagement, democracy, and new types of space?</p>
+          <p>Natasha is a partner in charlick+nicholson architects. Her research is focussed on data, democracy and place, including the spatial, material and structural aspects of data and data systems in placemaking. She is interested in how data can turbocharge collective decision-making and change. Natasha has researched signal-blocking technologies in architecture, and asks can a critical approach to the presence and absence of data form new approaches to civic engagement, democracy, and new types of space?"</p>
         </div>
       </div>
 

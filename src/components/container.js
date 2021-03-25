@@ -34,7 +34,7 @@ const HeaderLink = styled(Link)`
   color: black;
   box-shadow: none;
   padding: 15px 0 15px 0;
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Alegreya Sans',sans-serif;
 
   &:focus, &:hover, &:visited, &:link, &:active {
@@ -46,8 +46,8 @@ const HeaderLink = styled(Link)`
 const FixedImage = styled.img`
   margin: 1rem auto 1rem 1rem;
   align-self: center;
-  min-width: 273px;
-  max-width: 273px;
+  min-width: 373px;
+  max-width: 373px;
 `
 const HeaderLi = styled.li`
   padding: 0 10px 0 10px;
